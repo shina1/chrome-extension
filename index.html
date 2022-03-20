@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momentum App</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <h2>Welcome</h2>
-    <script src="app.js"></script>
+    <div class="container">
+        <h1>Welcome</h1>
+        <form class="hidden" id="login-form">
+            <input required maxlength="20" type="text" name="login-input" >
+            <button class="btn login-btn">Log In</button>
+        </form> 
+        <div id="greetings-box" class="hidden">
+            <button class="change-name btn">Edit Name</button>
+        </div>
+        <form id="todo-form">
+            <input type="text"  id="todo-input" placeholder="Enter your todo and hit enter">
+        </form>
+        <div id="edit-todo-box" class="hidden">
+            <input type="text"  id="edit-todo-input" placeholder="edit your todo" >
+            <button id="edit-todo-submit-btn" class="btn">submit</button>
+        </div>
+        <div class="todo-display-box">
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
+    <script src="./javascript/greeting.js"></script>
+    <script src="./javascript/todo.js"></script>
 </body>
 </html>
