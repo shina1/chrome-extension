@@ -1,0 +1,25 @@
+.hidden{
+    display: none;
+}
+
+.del-btn-sm{
+    padding: 5px 10px;
+    border: none;
+    background: red;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn-sm{
+    padding: 5px 10px;
+    border: none;
+    background: rgb(119, 189, 13);
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
